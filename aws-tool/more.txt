@@ -1,0 +1,97 @@
+EC2 Instance Management:
+List instances with detailed information
+Start/Stop/Reboot instances
+Create new instances from AMIs
+Modify instance types
+Manage instance tags
+
+Security Group Management:
+List security groups
+Create/Delete security groups
+Add/Remove rules from security groups
+
+VPC Management:
+List VPCs and their components (subnets, route tables, etc.)
+Create/Delete VPCs
+Manage VPC peering
+
+S3 Operations:
+List buckets and objects
+Upload/Download files
+Set bucket policies and ACLs
+
+IAM Management:
+List users, groups, and roles
+Create/Delete IAM entities
+Manage policies
+
+CloudFormation Stack Management:
+List stacks
+Create/Update/Delete stacks
+Validate templates
+
+Lambda Function Management:
+List functions
+Create/Update/Delete functions
+Invoke functions
+
+RDS Database Management:
+List DB instances
+Create/Modify/Delete DB instances
+Take snapshots
+
+CloudWatch Logs and Metrics:
+Fetch and display logs
+Get metric data
+Set up alarms
+
+ECS/EKS Cluster Management:
+List clusters and services
+Deploy/Update services
+Manage tasks
+
+Route53 DNS Management:
+List hosted zones and record sets
+Add/Modify/Delete DNS records
+
+Elastic Load Balancer Management:
+List load balancers
+Create/Modify/Delete load balancers
+Manage target groups
+
+SNS/SQS Management:
+List topics and queues
+Publish messages
+Create/Delete topics and queues
+
+Cost Explorer:
+Get cost and usage data
+Generate cost reports
+
+AWS Health Dashboard:
+Check service health
+Get recent events
+
+AWS Config:
+List rules
+Evaluate resources against rules
+
+Elastic Beanstalk:
+List and manage environments
+Deploy applications
+
+CloudFront Distribution Management:
+List distributions
+Create/Modify/Delete distributions
+
+AWS Systems Manager:
+Run commands on EC2 instances
+Manage patch baselines
+
+Cross-Region and Cross-Account Operations:
+Perform actions across multiple regions or accounts
+
+
+@https://github.com/minamijoyo/myaws/tree/master/myaws 
+
+go through this code and add all modules which this repo has and it in our code according to our structure. Do it 1 by 1 start with ecr then ecs and iam
