@@ -1,0 +1,6 @@
+[submodule "docker-cleanup"]
+	path = docker-cleanup
+	url = https://github.com/dhairya13703/docker-cleanup
+[submodule "sns-tool"]
+	path = sns-tool
+	url = https://github.com/dhairya13703/sns-tool
