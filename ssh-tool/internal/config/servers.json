@@ -1,0 +1,118 @@
+{
+  "servers": {
+    "lateral-us-staging-use1": {
+      "hostname": "172.30.2.206",
+      "user": "ubuntu",
+      "pem_file": "~/.ssh/pemfiles/LateralStaging.pem",
+      "description": "c3, receive, ambassador, acs, knight, ir, causa, a1, uscollect, lelamae, revnow, afcs, gbcollects, ocbs, tutelary, williampower"
+    },
+    "lateral-us-prod-use1": {
+      "hostname": "172.30.2.67",
+      "user": "ubuntu",
+      "pem_file": "~/.ssh/pemfiles/LAT-US-APP-PROD-001.pem",
+      "description": "lateral, oxygen, visas2america, eleos, lelamae, ir, ipm, receive, afcs, tutelary"
+    },
+    "lateral-a1-use1": {
+      "hostname": "172.30.2.223",
+      "user": "ubuntu",
+      "pem_file": "~/.ssh/pemfiles/us_production_server.pem",
+      "description": "a1, c3, acs"
+    },
+    "lateral-php-8-server-use1": {
+        "hostname": "172.30.2.116",
+        "user": "ubuntu",
+        "pem_file": "~/.ssh/pemfiles/LAT-US-PHP-A.pem",
+        "description": "oxygen, a1, uscollect, revnow"
+    },
+    "lateral-c3-cac1": {
+      "hostname": "172.32.2.226",
+      "user": "ubuntu",
+      "pem_file": "~/.ssh/pemfiles/LAT-CAN-APP-C3-001.pem",
+      "description": "c3, c3dupe"
+    },
+    "lateral-officedoc-prod-euw2": {
+      "hostname": "172.31.44.33",
+      "user": "ubuntu",
+      "pem_file": "~/.ssh/pemfiles/office-doc-server.pem",
+      "description": ""
+    },
+    "lateral-metabase-euw2": {
+      "hostname": "172.31.5.205",
+      "user": "ubuntu",
+      "pem_file": "~/.ssh/pemfiles/LAT_UK_METABASEDEV.pem",
+      "description": ""
+    },
+    "lateral-haringey-euw2": {
+      "hostname": "172.31.0.219",
+      "user": "ubuntu",
+      "pem_file": "~/.ssh/pemfiles/LAT-UK-APP-PROD-001.pem",
+      "description": "colliers, newcastle, wellfare, haringey"
+    },
+    "lateral-fis-euw2": {
+      "hostname": "172.31.4.233",
+      "user": "ubuntu",
+      "pem_file": "~/.ssh/pemfiles/LAT-UK-APP-FIS-TEST-001.pem",
+      "description": "fis"
+    },
+    "lateral-fa-app-euw2": {
+      "hostname": "172.31.16.45",
+      "user": "ubuntu",
+      "pem_file": "~/.ssh/pemfiles/lateral_aws_eu_west_london.pem",
+      "description": ""
+    },
+    "lateral-uk-es-prod-euw2": {
+      "hostname": "172.31.19.184",
+      "user": "ubuntu",
+      "pem_file": "~/.ssh/pemfiles/lateral_aws_eu_west_london.pem",
+      "description": ""
+    },
+    "lateral-verify-euw2": {
+      "hostname": "172.31.14.128",
+      "user": "ubuntu",
+      "pem_file": "~/.ssh/pemfiles/LAT-UK-APP-VERIFY-PROD.pem",
+      "description": "oxygen, verify"
+    },
+    "lateral-nodeb-euw2": {
+      "hostname": "172.31.4.128",
+      "user": "ubuntu",
+      "pem_file": "~/.ssh/pemfiles/lateral_aws_eu_west_london.pem",
+      "description": "randb, cardifflegal, torbay, basildon, hamburytilmond, hounslow, gcr, workcap, commercial, apd, sefton, lackfords, lbbd, wellfare"
+    },
+    "lateral-crawley-euw1": {
+      "hostname": "172.31.25.124",
+      "user": "ubuntu",
+      "pem_file": "~/.ssh/pemfiles/crawley_prod_london.pem",
+      "description": "highline, crawleybk, crawleycopy"
+    },
+    "lateral-cardiff-euw1": {
+      "hostname": "172.31.21.39",
+      "user": "ubuntu",
+      "pem_file": "~/.ssh/pemfiles/Cardiff_Parking_Prod.pem",
+      "description": "cardiff"
+    },
+   "lateral-receive-prod-use1": {
+        "hostname": "172.30.2.161",
+        "user": "ubuntu",
+        "pem_file": "~/.ssh/pemfiles/LAT-US-APP-PROD-001.pem",
+        "description": "receive"
+    },
+   "lateral-us-sandbox-mysql": {
+      "hostname": "172.30.2.61",
+      "user": "ubuntu",
+      "pem_file": "~/.ssh/pemfiles/LateralStaging.pem",
+      "description": "Sandbox MySQL Server"
+    },
+    "lateral-us-sandbox-cron": {
+      "hostname": "172.30.2.46",
+      "user": "ubuntu",
+      "pem_file": "~/.ssh/pemfiles/LateralStaging.pem",
+      "description": "Sandbox Cron Server"
+    },
+    "lateral-uk-staging-euw2": {
+      "hostname": "172.31.3.164",
+      "user": "ubuntu",
+      "pem_file": "~/.ssh/pemfiles/LateralStaging.pem",
+      "description": ""
+    }
+  }
+}

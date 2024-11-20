@@ -1,0 +1,104 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 800">
+    <!-- Background -->
+    <rect width="1000" height="800" fill="#f8f9fa"/>
+    
+    <!-- Title -->
+    <text x="500" y="40" font-family="Arial" font-size="24" fill="#2c3e50" text-anchor="middle" font-weight="bold">
+        Oasis Database Upgrade - Step 1 Process Flow
+    </text>
+
+    <!-- Start -->
+    <circle cx="500" cy="80" r="30" fill="#4CAF50" />
+    <text x="500" y="85" font-family="Arial" font-size="12" fill="white" text-anchor="middle">Start</text>
+
+    <!-- 1. Initialization Section -->
+    <rect x="200" y="140" width="600" height="120" rx="10" fill="#eee" opacity="0.5"/>
+    <text x="220" y="160" font-family="Arial" font-size="14" fill="#2c3e50" font-weight="bold">1. Initialization</text>
+    
+    <rect x="220" y="170" width="180" height="70" rx="5" fill="#3498db"/>
+    <text x="310" y="205" font-family="Arial" font-size="12" fill="white" text-anchor="middle">RE_Bld_Init.sql</text>
+    
+    <rect x="410" y="170" width="180" height="70" rx="5" fill="#3498db"/>
+    <text x="500" y="205" font-family="Arial" font-size="12" fill="white" text-anchor="middle">RE_Bld_Time_Define.sql</text>
+    
+    <rect x="600" y="170" width="180" height="70" rx="5" fill="#3498db"/>
+    <text x="690" y="205" font-family="Arial" font-size="12" fill="white" text-anchor="middle">RE_Bld_Log_Step.sql</text>
+
+    <!-- 2. Validation Section -->
+    <rect x="200" y="280" width="600" height="120" rx="10" fill="#eee" opacity="0.5"/>
+    <text x="220" y="300" font-family="Arial" font-size="14" fill="#2c3e50" font-weight="bold">2. Validation</text>
+    
+    <rect x="220" y="310" width="180" height="70" rx="5" fill="#e67e22"/>
+    <text x="310" y="345" font-family="Arial" font-size="12" fill="white" text-anchor="middle">RE_Bld_Notice_User.sql</text>
+    
+    <rect x="410" y="310" width="180" height="70" rx="5" fill="#e67e22"/>
+    <text x="500" y="345" font-family="Arial" font-size="12" fill="white" text-anchor="middle">RE_Bld_Confirm_Build_Info.sql</text>
+    
+    <rect x="600" y="310" width="180" height="70" rx="5" fill="#e67e22"/>
+    <text x="690" y="345" font-family="Arial" font-size="12" fill="white" text-anchor="middle">RE_Bld_Validate_Build_ID.sql</text>
+
+    <!-- 3. System Configuration -->
+    <rect x="200" y="420" width="600" height="120" rx="10" fill="#eee" opacity="0.5"/>
+    <text x="220" y="440" font-family="Arial" font-size="14" fill="#2c3e50" font-weight="bold">3. System Configuration</text>
+    
+    <rect x="220" y="450" width="280" height="70" rx="5" fill="#9b59b6"/>
+    <text x="360" y="485" font-family="Arial" font-size="12" fill="white" text-anchor="middle">RE_Bld_FM_Queue_Stop.sql</text>
+    
+    <rect x="520" y="450" width="260" height="70" rx="5" fill="#9b59b6"/>
+    <text x="650" y="485" font-family="Arial" font-size="12" fill="white" text-anchor="middle">RE_Bld_CFG_Triggers_Drop.sql</text>
+
+    <!-- 4. Build Scripts -->
+    <rect x="200" y="560" width="600" height="120" rx="10" fill="#eee" opacity="0.5"/>
+    <text x="220" y="580" font-family="Arial" font-size="14" fill="#2c3e50" font-weight="bold">4. Build Scripts</text>
+    
+    <rect x="220" y="590" width="180" height="70" rx="5" fill="#e74c3c"/>
+    <text x="310" y="625" font-family="Arial" font-size="12" fill="white" text-anchor="middle">Build_Drop_Obj.SQL</text>
+    
+    <rect x="410" y="590" width="180" height="70" rx="5" fill="#e74c3c"/>
+    <text x="500" y="625" font-family="Arial" font-size="12" fill="white" text-anchor="middle">Build_Base_Alt.SQL</text>
+    
+    <rect x="600" y="590" width="180" height="70" rx="5" fill="#e74c3c"/>
+    <text x="690" y="625" font-family="Arial" font-size="12" fill="white" text-anchor="middle">Build_Cust_Alt.SQL</text>
+
+    <!-- 5. Compilation -->
+    <rect x="200" y="700" width="600" height="70" rx="10" fill="#16a085"/>
+    <text x="500" y="735" font-family="Arial" font-size="14" fill="white" text-anchor="middle">Compilation (cmpx.sql, RE_Bld_cmpUpg.sql)</text>
+
+    <!-- Connectors -->
+    <g stroke="#95a5a6" stroke-width="2" fill="none">
+        <!-- Main flow -->
+        <path d="M500,110 L500,140" marker-end="url(#arrowhead)"/>
+        <path d="M500,260 L500,280" marker-end="url(#arrowhead)"/>
+        <path d="M500,400 L500,420" marker-end="url(#arrowhead)"/>
+        <path d="M500,540 L500,560" marker-end="url(#arrowhead)"/>
+        <path d="M500,680 L500,700" marker-end="url(#arrowhead)"/>
+    </g>
+
+    <!-- Arrow marker definition -->
+    <defs>
+        <marker id="arrowhead" markerWidth="10" markerHeight="7" refX="9" refY="3.5" orient="auto">
+            <polygon points="0 0, 10 3.5, 0 7" fill="#95a5a6"/>
+        </marker>
+    </defs>
+
+    <!-- Legend -->
+    <g transform="translate(20, 20)">
+        <rect x="0" y="0" width="160" height="150" rx="5" fill="white" stroke="#95a5a6"/>
+        <text x="10" y="20" font-family="Arial" font-size="12" fill="#2c3e50" font-weight="bold">Legend</text>
+        
+        <rect x="10" y="30" width="20" height="15" fill="#3498db"/>
+        <text x="40" y="42" font-family="Arial" font-size="12" fill="#2c3e50">Initialization</text>
+        
+        <rect x="10" y="55" width="20" height="15" fill="#e67e22"/>
+        <text x="40" y="67" font-family="Arial" font-size="12" fill="#2c3e50">Validation</text>
+        
+        <rect x="10" y="80" width="20" height="15" fill="#9b59b6"/>
+        <text x="40" y="92" font-family="Arial" font-size="12" fill="#2c3e50">System Config</text>
+        
+        <rect x="10" y="105" width="20" height="15" fill="#e74c3c"/>
+        <text x="40" y="117" font-family="Arial" font-size="12" fill="#2c3e50">Build Scripts</text>
+
+        <rect x="10" y="130" width="20" height="15" fill="#16a085"/>
+        <text x="40" y="142" font-family="Arial" font-size="12" fill="#2c3e50">Compilation</text>
+    </g>
+</svg>
