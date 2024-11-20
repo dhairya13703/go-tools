@@ -8,7 +8,7 @@ var (
 	configFile string
 	rootCmd    = &cobra.Command{
 		Use:   "ssh-tool",
-		Short: "A tool for managing SSH connections to servers",
+		Short: "A tool for managing SSH connections to servers in local machine with ssh connections",
 		Long: `A CLI tool that helps manage and connect to various servers 
                using embedded configuration with optional external config file support.`,
 	}
